@@ -4,8 +4,6 @@ const BOT_TOKEN = '5505131378:AAElCnqNkpmSkweOiLgqAwM4cqE_t3UjGWI'
 
 const bot = new Telegraf(BOT_TOKEN)
 
-//const id_anderson= 5416846261
-
 const id_grupo_strategy = -1423677936
 
  bot.hears('bot', (ctx) => ctx.reply('Estou aqui de olho...'));
